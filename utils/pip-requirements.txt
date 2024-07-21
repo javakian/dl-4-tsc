@@ -7,3 +7,5 @@ numpy
 scipy
 tensorflow-gpu
 # keras_contrib # installed using pip3 install git+https://www.github.com/keras-team/keras-contrib.git
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
